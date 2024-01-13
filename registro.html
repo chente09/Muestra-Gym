@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fitness Forge" />
+    <meta name="keywords"
+        content="gimnasio, pesas, entrenamiento, clases grupales, cardio, salud, fitness, bienestar" />
+    <meta name="author" content="Pablo Jimenez" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap Lux.css">
+    <link rel="stylesheet" href="css/registro.css">
+
+
+    <title>Area de pesas</title>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">FITNESSS FORGE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home                                
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="areapesas.html">PESAS
+                                <span class="visually-hidden">(current)</span>   
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="areacardio.html">CARDIO</a>
+                            
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">CLASES GRUPALES</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Alta Intensidad (HIT)</a>
+                                <a class="dropdown-item" href="#">Spinning</a>
+                                <a class="dropdown-item" href="#">Entrenamiento Funcional</a>
+                                <a class="dropdown-item" href="#">Baile Fitness</a>
+                                <a class="dropdown-item" href="#">Boxeo Fitness</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <header>
+        <h1>Inscripción a Fitness Forge</h1>
+    </header>
+
+    <section class="form-section">
+        
+        <form action="" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="plan">Selecciona un Plan:</label>
+            <select id="plan" name="plan" required>
+                <option value="plan1">Plan Básico</option>
+                <option value="plan2">Plan Avanzado</option>
+                <option value="plan3">Plan Premium</option>
+            </select>
+
+            <button type="submit" class="btn btn-custom">Inscribirse</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Forge. Todos los derechos reservados.</p>
+    </footer>
