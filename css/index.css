@@ -10,6 +10,15 @@
 
 }
 
+.texto-inicio p {
+  color: #333; 
+  font-size: 2em;  
+  font-weight: 400;  
+  line-height: 1.6;  
+  margin-bottom: 20px;  
+}
+
+
 hr {
     border: none;
     height: 3px;
@@ -140,13 +149,69 @@ hr {
 
 h2 {
     color: #fff;
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
     margin: 20px 0;
-    background: url('tu-imagen.jpg') center/cover; /* Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen */
+    background: url('tu-imagen.jpg') center/cover;
     padding: 20px;
     border-radius: 15px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+
+main {
+    padding: 40px;
+  }
+  
+
+  
+
+  .img-contenedor img {
+   
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .inscripcion button {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .inscripcion button:hover {
+    background-color: #218838;
+  }
+  
+  .img-contenedor:hover img {
+    transform: scale(1.0);
+  }
+  
+
+.img-contenedor {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+  }
+  
+
+  .img-contenedor img {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .img-contenedor:hover img {
+    transform: scale(1.2);
   }
   
