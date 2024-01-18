@@ -19,13 +19,12 @@
 }
 
 
-hr {
-    border: none;
-    height: 3px;
-    background: linear-gradient(to right, #3498db, #1abc9c, #9b59b6, #f39c12);
-    animation: gradient 4s linear infinite;
-    margin: 20px 0;
-  }
+
+hr.estilo-hr {
+  border: 1px solid #ddd; /* Línea separadora con color gris claro */
+  margin: 40px 0; /* Margen superior e inferior para separación */
+}
+
   
   @keyframes gradient {
     0% {
@@ -147,35 +146,39 @@ hr {
     }
 }
 
-h2 {
+
+  
+
+main {
+    padding: 25px;
+  }
+  
+  h2 {
     color: #fff;
     font-size: 30px;
     text-align: center;
     margin: 20px 0;
-    background: url('tu-imagen.jpg') center/cover;
+
     padding: 20px;
     border-radius: 15px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(52, 75, 177, 0.877);
   }
-  
 
-main {
-    padding: 40px;
-  }
-  
+ 
+
 
   
 
   .img-contenedor img {
    
-    width: 100%;
+    width: 85%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
   
   
-  .inscripcion button {
+  .btn btn-success {
     font-size: 18px;
     padding: 15px 30px;
     background-color: #28a745;
@@ -185,33 +188,28 @@ main {
     cursor: pointer;
   }
   
-  .inscripcion button:hover {
+  .btn btn-success:hover {
     background-color: #218838;
   }
   
-  .img-contenedor:hover img {
-    transform: scale(1.0);
-  }
+
   
 
-.img-contenedor {
-    position: relative;
-    overflow: hidden;
+  /*y section*/
+  
+ 
+
+  .row.esp-filas {
+
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    text-align: center; 
-  }
-  
+    padding: 20px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+    text-align: justify;
+}
 
-  .img-contenedor img {
-    width: auto;
-    height: 100%;
-    display: inline-block;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-
-  .img-contenedor:hover img {
-    transform: scale(1.2);
-  }
-  
+/* Estilo para el texto en la fila */
+.clases-entrenamiento p {
+    color: #000000; 
+    margin-bottom: 0; 
+}
