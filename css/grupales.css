@@ -1,0 +1,65 @@
+/* Estilos para la sección de Clases Grupales mejorados */
+
+#group-classes-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#group-classes-content .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#group-classes-content .class-schedule {
+    margin-bottom: 20px;
+    overflow-x: auto; /* Agregado para permitir el desplazamiento horizontal en la tabla */
+}
+
+#group-classes-content .class-schedule h3 {
+    margin-bottom: 10px;
+}
+
+#group-classes-content .class-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Evita que las columnas se expandan */
+}
+
+#group-classes-content .class-schedule th,
+#group-classes-content .class-schedule td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#group-classes-content .class-schedule th {
+    background-color: #e8491d;
+    color: #fff;
+}
+
+#group-classes-content .class-schedule td {
+    background-color: #f9f9f9;
+}
+
+#group-classes-content .cta-container {
+    text-align: center;
+}
+
+#group-classes-content button {
+    background-color: #e8491d;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#group-classes-content button:hover {
+    background-color: #333;
+}
