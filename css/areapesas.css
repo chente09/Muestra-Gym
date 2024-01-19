@@ -39,7 +39,7 @@ nav a:hover {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(49, 4, 253, 0.1);
     border-radius: 10px;
 }
 
@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 .gallery img {
-    width: 100%;
+    width: 30%;
     height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -95,8 +95,8 @@ button:hover {
 }
 
 .team-member img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 50;
     border-radius: 50%;
 }
 
@@ -120,22 +120,60 @@ th {
     color: #fff;
 }
 
-.services-list, .testimonial-list {
+.services-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
-.service, .testimonial {
+.service {
     text-align: center;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #3498db; 
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(52, 152, 219, 0.3); 
+    transition: transform 0.3s ease-in-out;
 }
 
+.service h3 {
+    color: #3498db; 
+}
+
+.service p {
+    color: #34495e; 
+}
+
+.service:hover {
+    transform: translateY(-5px); 
+}
+
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.testimonial {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #2ecc71; 
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(46, 204, 113, 0.3); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial p {
+    color: #34495e;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px); 
+}
 footer {
     text-align: center;
     padding: 20px;
@@ -147,7 +185,7 @@ footer {
 }
 
 
-/* Estilos para el modal mejorado */
+
 
 .modal-content {
     background-color: #f9f9f9;
@@ -174,7 +212,7 @@ footer {
     color: #3498db;
 }
 
-/* Estilos para el formulario dentro del modal */
+
 
 #joinForm {
     display: flex;
@@ -209,7 +247,7 @@ button:hover {
     background-color: #333;
 }
 
-/* Mejora en la animación del modal */
+
 .modal {
     display: none;
     position: fixed;

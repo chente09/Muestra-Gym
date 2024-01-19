@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     submitFormButton.addEventListener("click", function () {
-        // Aquí puedes personalizar la acción del formulario para el área de cardio
+  
         alert("¡Gracias por mostrar interés en nuestro área de cardio! Te contactaremos pronto.");
         modal.style.display = "none";
     });

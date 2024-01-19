@@ -1,4 +1,4 @@
-/* Estilos para la sección de Clases Grupales mejorados */
+
 
 #group-classes-content {
     max-width: 800px;
@@ -16,7 +16,7 @@
 
 #group-classes-content .class-schedule {
     margin-bottom: 20px;
-    overflow-x: auto; /* Agregado para permitir el desplazamiento horizontal en la tabla */
+    overflow-x: auto; 
 }
 
 #group-classes-content .class-schedule h3 {
@@ -26,7 +26,7 @@
 #group-classes-content .class-schedule table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed; /* Evita que las columnas se expandan */
+    table-layout: fixed; 
 }
 
 #group-classes-content .class-schedule th,
@@ -37,7 +37,7 @@
 }
 
 #group-classes-content .class-schedule th {
-    background-color: #e8491d;
+    background-color: #3498db;
     color: #fff;
 }
 
@@ -50,7 +50,7 @@
 }
 
 #group-classes-content button {
-    background-color: #e8491d;
+    background-color: #3498db;
     color: #fff;
     padding: 15px 30px;
     font-size: 18px;
@@ -62,4 +62,49 @@
 
 #group-classes-content button:hover {
     background-color: #333;
+}
+
+
+#team {
+    background-color: #f8f9fa; 
+    padding: 50px 0; 
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    color: #3498db; 
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+
+.team-member img {
+    width: 100%; 
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    color: #2c3e50; 
+}
+
+.team-member p {
+    color: #7f8c8d; 
 }

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     submitFormButton.addEventListener("click", function () {
-        // Aquí puedes personalizar la acción del formulario para las clases grupales
+
         alert("¡Gracias por mostrar interés en nuestras clases grupales! Te contactaremos pronto.");
         modal.style.display = "none";
     });

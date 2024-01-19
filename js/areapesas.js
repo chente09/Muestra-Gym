@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     joinButton.addEventListener("click", function () {
         modal.style.display = "block";
-        // Agregar animación de entrada para el modal (opcional)
+       
         modal.classList.add("fadeIn");
     });
 
