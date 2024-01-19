@@ -8,13 +8,14 @@
 
     $consulta = "INSERT into registro(nombres, correo, telefono, tipo_plan) values ('$nombres', '$correo', '$telefono', '$tipoPlan')";
 
-    $resultado=mysqli_query($conexion, $consulta);
+    $resultado = mysqli_query($conexion, $consulta);
 
-    if($resultado){
-        echo "Registro exitoso";
+    if ($resultado) {
+    echo "Registro exitoso";
     } else {
-        echo "Error de registro";
+    echo "Error de registro: " . mysqli_error($conexion);
     }
+
 
 
 ?>
